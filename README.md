@@ -1,12 +1,11 @@
-# TACT template project
+# TACT Hello World guide
 
-This project has ready to use TACT compiler, typescript + jest with ton-contract-executor, example how to do tests.
+This project is a template for learning how to write smart contracts from zero knowledge in development with [Tact Hello World](https://ton.org/docs/develop/tact/introduce/hello-world-guide) guide.
 
-```bash
-yarn test # To test contract
-yarn build # To build contract
-yarn deploy # To deploy contract
-```
+# Links
+* [Main Tact repository](https://github.com/ton-core/tact)
+* [Ton-core Tact docs](https://github.com/ton-core/tact)
+* [Tact overview on ton.org](http://localhost:3000/docs/develop/tact/tact-overview)
 
 ## Licence
 
