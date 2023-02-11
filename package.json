@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ton-community/tact-guide-template",
-  "author": "Steve Korshakov <steve@korshakov.com>",
+  "author": "ton-community",
   "license": "MIT",
   "scripts": {
     "build": "tact --config ./tact.config.json",
     "test": "jest",
-    "deploy": "ts-node ./sources/contract.deploy.ts"
+    "deploy": "ts-node ./sources/contract.deploy.ts",
+    "get": "ts-node ./sources/get_total.ts",
+    "increment": "ts-node ./sources/send_increment.ts"
   },
   "dependencies": {
+    "@orbs-network/ton-access": "^2.2.2",
     "@types/jest": "^29.2.4",
     "@types/node": "^18.11.14",
     "@types/qs": "^6.9.7",
